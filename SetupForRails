@@ -1,0 +1,19 @@
+1) mkdir directory_name
+2) sudo apt install git //Install git
+3) sud apt install vim  //Install vim
+4) git config --global user.email "email address"
+4) git config --global user.name "name"
+5) You can use SSH or https
+   -To use ssh -> Create public key to use ssh Follow instructions on https://help.github.com/articles/signing-commits-with-gpg/
+6) Install npm and npm (https://github.com/creationix/nvm)
+7) Install node nvm install node.
+8) Install Heroku CLI (Requires an account)
+  --npm install -g heroku-cli
+  or
+  --wget -q0- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+9) install Text Editor
+10) Install Rails...
+
+
+
+  
