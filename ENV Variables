@@ -1,0 +1,6 @@
+type echo $SHELL to check if your using bash
+Edit the file by typing nano ~/.bashrc
+enter the environment variable eg:
+export DB_USER="devdb"
+export DB_PASSWORD="devdb"
+close terminal and reopen it
