@@ -1,0 +1,9 @@
+How to reset PG Database on Heroku?
+Step 1: heroku restart
+Step 2: heroku pg:reset DATABASE (no need to change the DATABASE)
+Step 3: heroku run rake db:migrate
+Step 4: heroku run rake db:seed (if you have seed)
+One liner
+
+heroku restart; heroku pg:reset DATABASE --confirm APP-NAME; heroku run rake db:migrate
+
